@@ -1,7 +1,7 @@
 # flask-file-upload-app
 This is a simple web application built with Flask for uploading and displaying files. It supports images, PDFs, and text files and shows a preview for images.
 
-# Features
+## Features
 File Upload: Users can upload images, PDFs, and text files.
 File Preview: Uploaded images are displayed with a preview.
 File Listing: All uploaded files are listed with links to view or download them.

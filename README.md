@@ -8,7 +8,7 @@ File Listing: All uploaded files are listed with links to view or download them.
 ## Project Structure
 arduino
 Copy code
-
+```plaintext
 flask-file-upload-app/
 │
 ├── app/                         # Main application folder
@@ -22,7 +22,7 @@ flask-file-upload-app/
 ├── requirements.txt             # Python dependencies
 ├── Procfile                     # Specifies commands for deploying to Heroku
 └── runtime.txt                  # Specifies the Python version for Heroku
-
+```
 app/static/: Contains static files and uploaded files.
 app/templates/: Contains HTML templates.
 app/__init__.py: Initializes the Flask app.

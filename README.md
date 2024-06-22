@@ -5,7 +5,7 @@ This is a simple web application built with Flask for uploading and displaying f
 File Upload: Users can upload images, PDFs, and text files.
 File Preview: Uploaded images are displayed with a preview.
 File Listing: All uploaded files are listed with links to view or download them.
-# Project Structure
+## Project Structure
 arduino
 Copy code
 flask-file-upload-app/
@@ -28,22 +28,22 @@ app/routes.py: Contains the routes for handling file uploads and displaying file
 requirements.txt: Lists the dependencies.
 Procfile: Specifies commands for deployment on Heroku.
 runtime.txt: Specifies the Python runtime version for deployment.
-Prerequisites
+## Prerequisites
 Python 3.10 or above
 pip for managing Python packages
-Installation
-Clone the repository:
+## Installation
+### Clone the repository:
 
 bash
 Copy code
 git clone https://github.com/<username>/flask-file-upload-app.git
 cd flask-file-upload-app
-Create a virtual environment:
+### Create a virtual environment:
 
 bash
 Copy code
 python3 -m venv venv
-Activate the virtual environment:
+### Activate the virtual environment:
 
 Windows:
 
@@ -55,16 +55,16 @@ macOS/Linux:
 bash
 Copy code
 source venv/bin/activate
-Install the dependencies:
+### Install the dependencies:
 
 bash
 Copy code
 pip install -r requirements.txt
-Configuration
+## Configuration
 Upload Folder: Files are uploaded to app/static/uploads/.
 Allowed File Types: Images (png, jpg, jpeg, gif), PDFs (pdf), and text files (txt).
 File Size Limit: Maximum file size is set to 16 MB.
-Running the App
+## Running the App
 Set the Flask environment variables:
 
 bash
@@ -85,7 +85,7 @@ flask run
 Access the app:
 Open a browser and go to http://127.0.0.1:5000.
 
-Deployment
+## Deployment
 Deploying to Heroku
 Create a Heroku account: Heroku
 
@@ -111,20 +111,21 @@ Open the app:
 bash
 Copy code
 heroku open
-Deploying to Render
+### Deploying to Render
 Create a Render account: Render
 
 Create a new Web Service:
 
 Choose your GitHub repository.
 Follow the prompts to deploy.
-Example Screenshots
+![Screenshot (329)](https://github.com/nilupultharanga/flask-file-upload-app/assets/88283925/04653d1e-6493-493a-ba54-7b7766b273d6)
 
 
-Contributing
+
+## Contributing
 Fork the repository.
 Create a new branch.
 Make your changes.
 Submit a pull request.
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
